@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.First" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">#D6C2A7</item>
+        <item name="colorPrimaryContainer">#C2A280</item>
+        <item name="colorOnPrimary">#5C4330</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+
+    </style>
+
+    <style name="Theme.First" parent="Base.Theme.First" />
+
+</resources>
