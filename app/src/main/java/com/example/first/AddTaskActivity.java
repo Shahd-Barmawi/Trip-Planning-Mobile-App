@@ -116,9 +116,6 @@ public class AddTaskActivity extends AppCompatActivity {
         if (taskList == null) taskList = new ArrayList<>();
     }
 
-    private void saveList() {
-        Gson gson = new Gson();
-        String json = gson.toJson(taskList);
-        prefs.edit().putString(KEY_LIST, json).apply();
-    }
+
 }
+// Test change
